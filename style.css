@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap");
+
+h1,
+h2,
+h3,
+p,
+span,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Roboto";
+  font-weight: 500;
+  color: #0e8a73;
+}
+
+h1 {
+  text-align: center;
+}
+
+body {
+  font-family: "Arial";
+  background-color: #000f08;
+}
+
+.area-calculadora h3 {
+  margin-bottom: 15px;
+}
+
+#ou {
+  text-align: center;
+  margin: 30px auto 30px auto;
+}
+
+.detalhe-ou {
+  color: gray;
+}
+
+input {
+  width: 50px;
+  height: 23px;
+  border: 1px solid #14c3a2;
+  border-radius: 4px;
+  margin-bottom: 3px;
+}
+
+input:focus {
+  outline: #37f7c0 1px solid;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.area-calculadora-bg {
+  border-radius: 5px;
+  display: grid;
+  place-content: center;
+}
+
+.resultados {
+  margin-left: 30px;
+}
+
+.area-calculadora {
+  max-width: 250px;
+  margin: 15px auto 0 auto;
+  padding: 40px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(14, 14, 14, 0.521);
+}
+
+.grid-notas {
+  display: grid;
+  justify-items: start;
+  align-items: center;
+  grid-template-columns: auto 1fr;
+  gap: 0 10px;
+}
+
+.grid-notas input {
+  grid-column: 2;
+}
+
+.grid-notas label {
+  grid-column: 1;
+}
+
+.grid-notas-media label,
+.grid-notas-media input {
+  margin-right: 10px;
+}
+
+button {
+  margin-top: 10px;
+  background-color: #14c3a2;
+  border-radius: 4px;
+  padding: 7px 15px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #0de5a8;
+}
+
+.rodape {
+  padding: 40px;
+  background-color: #00241d;
+  color: rgb(41, 197, 184);
+  text-align: center;
+}
+
+.verifique {
+  color: red;
+  font-size: 11px;
+}
+
+.p-resultado {
+  margin: 10px auto;
+  color: rgb(48, 48, 48);
+}
+
+#mostrar-media {
+  margin-bottom: 10px;
+}
+
+#resultado-final,
+#resultado-final-7 {
+  color: #0e8a73;
+  font-weight: bold;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0de5a8;
+  border-radius: 10px;
+}
