@@ -24,7 +24,7 @@ h1 {
 
 body {
   font-family: "Arial";
-  background-color: #000f08;
+  background-color: rgb(245, 245, 245);
 }
 
 .area-calculadora h3 {
@@ -115,8 +115,9 @@ button:hover {
 
 .rodape {
   padding: 40px;
-  background-color: #00241d;
-  color: rgb(41, 197, 184);
+  background-color: #cccccc;
+  color: rgb(1, 51, 47);
+  font-family: "Roboto";
   text-align: center;
 }
 
