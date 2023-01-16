@@ -77,7 +77,7 @@ function por_nota() {
           "<h2 id='mostrar-media'><h2>Para passar com média 5,</h2><p class='p-resultado'>você precisa tirar <span id='resultado-final'>...</span> na prova final.<h3>Infelizmente, você não consegue mais passar com 7.</h3><br><button onclick='calcularOutraVez()'>← Voltar e calcular outra vez</button>";
 
         document.getElementById("mostrar-media").innerHTML =
-          "Sua média é: " + media + ".";
+          "Sua média é: " + media;
         document.getElementById("resultado-final").innerHTML = minimo;
       }
     } else {
